@@ -1,4 +1,3 @@
-
 import dayjs from "dayjs";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,8 +9,6 @@ import {
 } from "@/lib/actions/general.action";
 import { Button } from "@/components/ui/button";
 import { getCurrentUser } from "@/lib/actions/auth.action";
-
-type RouteParams = any;
 
 const Feedback = async ({ params }: RouteParams) => {
   const { id } = await params;
